@@ -1,4 +1,4 @@
-story = "{0} is {1} down the road, {0} is using a {5} {2}. This makes it vey hard for {3} who is {4} while  "
+story = "{0} is {1} down the road, {0} is using a {5} {2}. This makes it vey hard for {3} who is {4} while {5} "
 name = raw_input("enter a name ")
 verb = raw_input("enter a verb ")
 noun = raw_input("enter a noun ")
@@ -12,5 +12,5 @@ verb4 = raw_input("enter  one more verb ")
 adjetive2 = raw_input("enter one more adjetive ")
 adjetive3 = raw_input("enter another adjetive ")
 adjetive4 = raw_input("enter another adjetive ") 
-adjusted = story.format(name, verb, noun, name2, verb2, adjetive)
+adjusted = story.format(name, verb, noun, name2, verb2, adjetive, verb3, noun3, verb4, adjetive2, adjetive3, adjetive4)
 print (adjusted)
