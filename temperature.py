@@ -1,4 +1,4 @@
-celcius = raw_imput("please enter a temperature in celcius (~")
+celcius = raw_input("please enter a temperature in celcius ~")
 celcius = int(celcius)
 
 #ask user for temperature

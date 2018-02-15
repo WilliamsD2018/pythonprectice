@@ -16,6 +16,11 @@ number1= 500
 number2= 1000.0
 #floating point^
 number3 = number1 / number2
-print(numbe3)
+print(number3)
 
 
+x = 6
+x = x + 1
+x = x * 30
+y = 2 * x
+print(type(y)) 
